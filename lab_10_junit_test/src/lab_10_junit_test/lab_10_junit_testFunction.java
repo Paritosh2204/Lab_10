@@ -2,8 +2,8 @@ package lab_10_junit_test;
 
 public class lab_10_junit_testFunction {
     
-    // Method to add two numbers
-    public int addNumbers(int num1, int num2) {
+    // Method to add two integers
+    public int addIntegers(int num1, int num2) {
         return num1 + num2;
     }
     
@@ -16,8 +16,8 @@ public class lab_10_junit_testFunction {
     public static void main(String[] args) {
         lab_10_junit_testFunction function = new lab_10_junit_testFunction();
         
-        // Test addNumbers method
-        int sum = function.addNumbers(5, 3);
+        // Test addIntegers method
+        int sum = function.addIntegers(5, 3);
         System.out.println("Sum of numbers: " + sum);
         
         // Test concatenateStrings method
